@@ -13,6 +13,8 @@
     </head>
     <body>
         <%
+            //クエリストリングを利用して、簡易素因数分解のロジックを作成。
+            
             /*
             http://localhost:8080/WebApplication1/kiso2-10.jsp?num=27
             */        
