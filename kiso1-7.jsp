@@ -14,6 +14,8 @@
     <body>
         <%
             /*
+            //クエリストリングを利用して、スーパーのレジでレシートを作る仕組みを作成。
+            
             http://localhost:8080/WebApplication1/kiso1-7.jsp?Total=4000&Number=6&Commondly=1
             */
             
@@ -48,11 +50,11 @@
                 if(x>5000){
                     //総額が3000円以上ならここに来ます。
                     double kake = x * 0.05;
-                    out.print(x+"円購入時のポイントは"+kake+"です");
+                    out.print(x +"円購入時のポイントは"+ kake +"です");
                 }else if(x>3000){
                     //総額が5000円以上ならここに来ます。
                     double kake = x * 0.04;
-                    out.print(x+"円購入時のポイントは"+kake+"です");
+                    out.print(x +"円購入時のポイントは"+ kake +"です");
                 }
 
         %>

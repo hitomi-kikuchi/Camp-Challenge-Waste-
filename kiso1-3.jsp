@@ -13,7 +13,8 @@
     </head>
     <body>
         <%
-            //自己紹介
+            //自分の自己紹介を作成。
+
             out.println("菊池 瞳");
             out.println("1990年4月18日生");
             out.println("O型");

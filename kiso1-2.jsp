@@ -13,6 +13,8 @@
     </head>
     <body>
         <%
+            //「groove」「-」「gear」の３つの文字列を連結して表示。
+            
             out.print("groove");
             out.print("_");
             out.print("gear");    

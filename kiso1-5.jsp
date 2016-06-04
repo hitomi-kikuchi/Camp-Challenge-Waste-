@@ -13,21 +13,26 @@
     </head>
     <body>
         <%
+            //四則演算の結果をそれぞれ表示。
+            
+            //定数作成
             final int num = 5;
+            //変数作成
             int num2 = 4;
-            int num3 =16;
+            int num3 = 8;
+            int num4 = 16;
             
             int tasi = num + num2;  //足し算
             int hiki = num - num2;  //引き算
             int kake = num * num2;  //掛け算
             int wari = num3 / num2;  //割り算
-            int amari = num3 % num;  //剰余
+            int amari = num4 % num;  //剰余
             
-                out.print(num+"＋"+num2+"＝"+tasi+"です ");
-                out.print(num+"＋"+num2+"＝"+hiki+"です ");
-                out.print(num+"×"+num2+"＝"+kake+"です ");
-                out.print(num3+"÷"+num2+"＝"+wari+"です ");
-                out.print(num3+"÷" +num2+"のあまりは"+amari+"です ");
+                out.print(num +"＋"+ num2 +"＝"+ tasi + "<br>");
+                out.print(num +"＋"+ num2 +"＝"+ hiki + "<br>");
+                out.print(num +"×"+ num2 +"＝"+ kake + "<br>");
+                out.print(num3 +"÷"+ num2 +"＝"+ wari + "<br>");
+                out.print(num4 +"÷"+ num +"のあまりは" + amari);
         %>
     </body>
 </html>

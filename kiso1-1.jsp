@@ -4,7 +4,9 @@
     Author     : 1999itukinao
 --%>
 <%
-    String talk = "Hello world";
+    //「Hello world.」を表示
+    
+    String talk = "Hello world.";
 %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
